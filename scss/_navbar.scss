@@ -1,0 +1,50 @@
+
+
+/* ===== NAVBAR ===== */
+
+
+li , a{
+    font-family: 'DM Serif Text', serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: black;
+    text-decoration: none;
+}
+.nav__links{
+    list-style: none;
+    text-align: center;
+    padding: .4%;
+}
+.nav__links{
+    li{
+        display: inline-block;
+        padding: 0px 20px;
+    }
+}
+.nav__links{
+    li{
+        a{
+            transition: all 0.3s ease 0s;
+        }
+    }
+}
+.nav__links{
+    li{
+        a{
+        &:hover{
+        color: #262b2c;
+        font-weight: bolder;
+        text-decoration: underline;
+            }
+        }
+    }
+}
+ul{
+    .nav__links{    
+            .animate__animated{
+                .animate__flipInX{
+                        margin-bottom: 0;
+                }
+            }
+    }
+} 
